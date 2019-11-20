@@ -7,4 +7,4 @@ Inspired by World of Warcraft by Blizzard Entertainment. Implemented using SQL D
 
 # Relational model is here:
 
-
+![alt text](https://raw.githubusercontent.com/salveron/DBS_semestral_work/master/Relational_1.png)

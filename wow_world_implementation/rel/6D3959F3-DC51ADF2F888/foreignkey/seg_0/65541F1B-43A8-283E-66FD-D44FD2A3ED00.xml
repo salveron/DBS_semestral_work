@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="65541F1B-43A8-283E-66FD-D44FD2A3ED00" containerWithKeyObject="B16E4607-0C00-D7A4-BF79-AE8802AC6D11" localFKIndex="0872BFFE-873E-7E24-75E2-D671C5F09BB7" name="Race_class_Race_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>99D050B7-52FB-CB68-3E0A-05D4EF2BEFE6</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<referredTableLongName>Race</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0B73FC99-9CB6-024D-2A25-9ACFF33518B7</referredTableID>
+<keyObject>774A692C-9931-73C5-AD66-BFCB939758A3</keyObject>
+<referredKeyID>774A692C-9931-73C5-AD66-BFCB939758A3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

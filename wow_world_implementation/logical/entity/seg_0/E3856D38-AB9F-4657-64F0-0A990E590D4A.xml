@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E3856D38-AB9F-4657-64F0-0A990E590D4A" name="Healer">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:52:01 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="769ECE52-5157-FD3A-D3DD-42176F3156CA">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:57:58 UTC</createdTime>
+<generatorID>8719B406-DC57-7C2E-3E25-02B81A09D024</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<referedAttribute>F3BAE13A-ACE3-A0D6-D70B-DF86F8FFD59C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Specialization" id="9FD373A9-C9F2-0AFF-B025-C4FE9DB93703">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-04-04 09:30:24 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Combined" description=""/>
+<valueDef value="Many_targets" description=""/>
+<valueDef value="Solo_target" description=""/>
+</listOfValues>
+<defaultValue>Combined</defaultValue>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Popularity" id="E04276D1-3E7B-5B97-973A-8795ACD813B0">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-04-04 09:35:16 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<avTSortOrder>1</avTSortOrder>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+<description>Popularity_scale_healer</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3EC48BC0-8474-5618-622A-3066DB9ECCA2" name="Healer PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:58:25 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>769ECE52-5157-FD3A-D3DD-42176F3156CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

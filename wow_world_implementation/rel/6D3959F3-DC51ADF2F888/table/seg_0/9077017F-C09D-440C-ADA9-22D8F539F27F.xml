@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9077017F-C09D-440C-ADA9-22D8F539F27F" name="Mount_location">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Mount_Name" id="9B7C223F-218E-655A-06FB-6CCDC58FCFED">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EF3D46F8-2C1D-E842-4A6E-E7224AD36542" referredColumn="E0171DF2-393F-452A-44F4-93FDBAAF9FB3"/>
+</associations>
+</Column>
+<Column name="Location_Name" id="63FA197F-AADE-8038-A25A-C6CC8D809E09">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6FCD623F-6ADD-DCB2-CABE-62C77A9682F7" referredColumn="78AC712E-2826-C14F-EAA2-7DADE04803FE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2A3ADFD1-7356-1069-A447-F56C8B86BA59" name="Mount_location_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B7C223F-218E-655A-06FB-6CCDC58FCFED"/>
+<colUsage columnID="63FA197F-AADE-8038-A25A-C6CC8D809E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEAFFCDC-DF7E-70BF-590A-DD757F1ACAF2" name="Mount_location_Mount_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>CE51AB6B-3CAD-56FA-4515-1CAAFE524CC2</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9B7C223F-218E-655A-06FB-6CCDC58FCFED"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F999EFCB-0FB8-007D-5019-27E389E7560F" name="Mount_location_Location_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>CE51AB6B-3CAD-56FA-4515-1CAAFE524CC2</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="63FA197F-AADE-8038-A25A-C6CC8D809E09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

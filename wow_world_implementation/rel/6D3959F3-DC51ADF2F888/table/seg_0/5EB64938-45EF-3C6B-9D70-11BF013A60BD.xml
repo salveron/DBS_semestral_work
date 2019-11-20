@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5EB64938-45EF-3C6B-9D70-11BF013A60BD" name="Location">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>067AA45F-B565-4345-64D2-AB95332A3BF4</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="78AC712E-2826-C14F-EAA2-7DADE04803FE">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>D042BE86-829B-ABFB-0D7E-2624050F638C</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="1F036D77-D4FF-0A5B-C361-12674C0F938E">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>F16C00BE-05F9-31BE-BDF3-567A2F32D711</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Desert" description=""/>
+<valueDef value="Forest" description=""/>
+<valueDef value="Mountainous" description=""/>
+<valueDef value="Plain" description=""/>
+<valueDef value="Snowy" description=""/>
+<valueDef value="Underground" description=""/>
+<valueDef value="Water" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Continent_Name" id="FAB8D01B-9D5A-12F6-3747-BE3E7E0F2AE7">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>A5F65725-95FA-1A5B-E4F0-AE24FB652893</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="704FAA26-B761-9790-43B4-79D55DCE4812" referredColumn="E89E9B2D-C991-866C-EEDE-045C9544586A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4A142C8F-8C66-6422-45F1-1C5FF3222A31" name="Location_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>FFF365BC-5D2E-4043-2E2A-C844DD4038B4</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="78AC712E-2826-C14F-EAA2-7DADE04803FE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4C4A6B34-0776-0693-2F06-723574E08C6C" name="Location_Continent_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>51D021B2-C25C-0D91-D8BC-9549A685F2D2</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAB8D01B-9D5A-12F6-3747-BE3E7E0F2AE7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

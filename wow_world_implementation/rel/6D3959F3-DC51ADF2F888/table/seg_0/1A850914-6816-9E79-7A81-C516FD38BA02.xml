@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1A850914-6816-9E79-7A81-C516FD38BA02" name="Weapon">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>39CDEF9A-F299-68D8-A419-0DE814BF7E9B</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Type" id="3CE95E36-91A6-C767-E766-1DA63EC65EA6">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>5A2023CF-02AE-09BE-FB22-B062CC784AE0</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Axe" description=""/>
+<valueDef value="Bow" description=""/>
+<valueDef value="Crossbow" description=""/>
+<valueDef value="Dagger" description=""/>
+<valueDef value="Fist_Weapon" description=""/>
+<valueDef value="Hammer" description=""/>
+<valueDef value="Mace" description=""/>
+<valueDef value="Rifle" description=""/>
+<valueDef value="Staff" description=""/>
+<valueDef value="Sword" description=""/>
+<valueDef value="Wand" description=""/>
+<valueDef value="Warglaive" description=""/>
+</listOfValues>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Offhand_weapon" id="9F885F5F-8DBB-1EC1-B292-2A1AF76253EA">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 18:26:21 UTC</createdTime>
+<generatorID>F456C4AA-38A4-FA5E-7CAB-F9D48CFF5132</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Dagger" description=""/>
+<valueDef value="Fist_Weapon" description=""/>
+<valueDef value="Grimoire" description=""/>
+<valueDef value="Shield" description=""/>
+<valueDef value="Warglaive" description=""/>
+</listOfValues>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27370A68-737D-F1D3-E529-F716B76FB1FF" name="Weapon_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>B91B98D9-713F-B5B2-D5F1-E037046509F3</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3CE95E36-91A6-C767-E766-1DA63EC65EA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

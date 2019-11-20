@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Location_continent" directorySegmentName="seg_0" id="51D021B2-C25C-0D91-D8BC-9549A685F2D2">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:07:23 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<sourcePk>B8C8DF8E-719B-6455-0942-F9100EDFDC97</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>consists_of</nameOnSource>
+<nameOnTarget>is_a_part_of</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>64A11C72-60D5-E460-9FF1-94D3EA5EE533</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>067AA45F-B565-4345-64D2-AB95332A3BF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

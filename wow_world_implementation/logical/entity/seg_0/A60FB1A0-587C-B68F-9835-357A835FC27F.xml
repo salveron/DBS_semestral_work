@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A60FB1A0-587C-B68F-9835-357A835FC27F" name="Battle">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:53:16 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Id_Battle" id="1A79AB8C-7B02-7F71-E90C-9B181B54ABD8">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:53:28 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="0CAEFEA6-D973-DFF5-655F-C906139A6436">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:08:57 UTC</createdTime>
+<generatorID>25FD5B13-DFA2-45B3-2A34-8A0C2473B03A</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<referedAttribute>D042BE86-829B-ABFB-0D7E-2624050F638C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="04818F8F-FFD8-D9BD-FF06-F483378B6883" name="Battle PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:53:31 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1A79AB8C-7B02-7F71-E90C-9B181B54ABD8</attributeRef>
+<attributeRef>0CAEFEA6-D973-DFF5-655F-C906139A6436</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

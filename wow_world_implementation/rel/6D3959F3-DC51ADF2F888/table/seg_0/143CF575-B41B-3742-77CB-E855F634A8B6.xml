@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="143CF575-B41B-3742-77CB-E855F634A8B6" name="Class_weapon">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Class_Name" id="EDA97C2B-3E43-0FD0-BD63-A9C9A00ADA6A">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="64481175-E0CC-BD5D-73F9-5165C5FE2B74" referredColumn="17AAC586-D2DC-DF40-B7AE-0B6C638557AE"/>
+</associations>
+</Column>
+<Column name="Weapon_Type" id="098758B3-1029-A773-ED1D-ABE506D94644">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1184E545-E5DE-55AE-39A0-438F1E698DD6" referredColumn="3CE95E36-91A6-C767-E766-1DA63EC65EA6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A9EE8709-E298-64CD-6955-0F1F0AB944E9" name="Class_weapon_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDA97C2B-3E43-0FD0-BD63-A9C9A00ADA6A"/>
+<colUsage columnID="098758B3-1029-A773-ED1D-ABE506D94644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F9CC21B0-49C0-0E6A-FC39-1148F97B3A0C" name="Class_weapon_Class_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>C8BC5848-EA44-B7C1-E56E-D1F1E8E1AF38</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EDA97C2B-3E43-0FD0-BD63-A9C9A00ADA6A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98CB5500-DE68-D458-357C-0B64F9777950" name="Class_weapon_Weapon_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>C8BC5848-EA44-B7C1-E56E-D1F1E8E1AF38</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="098758B3-1029-A773-ED1D-ABE506D94644"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

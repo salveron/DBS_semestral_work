@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="EF3D46F8-2C1D-E842-4A6E-E7224AD36542" containerWithKeyObject="9077017F-C09D-440C-ADA9-22D8F539F27F" localFKIndex="FEAFFCDC-DF7E-70BF-590A-DD757F1ACAF2" name="Mount_location_Mount_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>CE51AB6B-3CAD-56FA-4515-1CAAFE524CC2</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<referredTableLongName>Mount</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>E4A917C2-FA11-E9DE-8E95-E69A6B970DA7</referredTableID>
+<keyObject>054CF271-4C45-66D9-2691-EAD1B6D01795</keyObject>
+<referredKeyID>054CF271-4C45-66D9-2691-EAD1B6D01795</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

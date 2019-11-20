@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FE42CC69-EE77-E9EB-9FF2-3BD54D6B44A2" name="Healer">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>E3856D38-AB9F-4657-64F0-0A990E590D4A</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Class_Name" id="CAFD6F12-5B2F-8204-8497-DC844AE04BDB">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>769ECE52-5157-FD3A-D3DD-42176F3156CA</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7332FCBC-C9E6-7B15-D61C-87573AEF9FEC" referredColumn="17AAC586-D2DC-DF40-B7AE-0B6C638557AE"/>
+</associations>
+</Column>
+<Column name="Specialization" id="3C39EA1C-DC2D-102B-6513-26EBD69EC394">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-04-04 09:52:15 UTC</createdTime>
+<generatorID>9FD373A9-C9F2-0AFF-B025-C4FE9DB93703</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Combined" description=""/>
+<valueDef value="Many_targets" description=""/>
+<valueDef value="Solo_target" description=""/>
+</listOfValues>
+<defaultValue>Combined</defaultValue>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Popularity" id="B118B964-CB90-8442-20E1-D69410ACFFA9">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-04-04 09:52:15 UTC</createdTime>
+<generatorID>E04276D1-3E7B-5B97-973A-8795ACD813B0</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+<description>Popularity_scale_healer</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D1D9C2D7-8CFF-7450-3C35-5E75DC28C93E" name="Healer_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>3EC48BC0-8474-5618-622A-3066DB9ECCA2</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAFD6F12-5B2F-8204-8497-DC844AE04BDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4CD3D5CB-5FCF-091E-49AE-7B6CCB0C3FFB" name="Healer_Class_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>8719B406-DC57-7C2E-3E25-02B81A09D024</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAFD6F12-5B2F-8204-8497-DC844AE04BDB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,191 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="366F0C2A-1818-95D3-EC0A-F4373A140B0A" name="Creature">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>BA5B7C7E-50AC-4F97-5509-AEDC0F88B3F6</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="C1935038-9E76-E117-6EDD-5B85B6AC3F7E">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>974C2679-5BAA-355F-206D-374F9E0076F5</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Class_Name" id="4B5D2A68-2199-A4FB-BB86-3298E772EBF7">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>6D4EE220-2484-EAC0-F2D6-3EA4B48DAA42</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FF98143-ED09-C46B-A3F8-D476F0998CF6" referredColumn="17AAC586-D2DC-DF40-B7AE-0B6C638557AE"/>
+</associations>
+</Column>
+<Column name="Mount_Name" id="321DDF42-1AD7-22F9-829E-0903BE7745C2">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>DEE03463-C4C6-D91D-F9E0-6B773685BEA0</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ADCEECA8-9918-BAD7-5753-8EBB38700074" referredColumn="E0171DF2-393F-452A-44F4-93FDBAAF9FB3"/>
+</associations>
+</Column>
+<Column name="Race_Name" id="9A355B38-A948-9442-31E5-55EB96996BEB">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>8F318300-64A2-28F6-030D-1E44431C173D</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="530CF157-AC4D-75AE-D1C3-56BCFDF8042E" referredColumn="C206FEF0-2B10-74E2-20B0-9FEA9C2483FD"/>
+</associations>
+</Column>
+<Column name="Location_Name" id="B946B8A2-0743-E925-8A9C-38F089140000">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>1B1DE814-4A6B-3233-160C-E5C7D1585D23</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5093CE70-148B-4744-9947-33223528E1FF" referredColumn="78AC712E-2826-C14F-EAA2-7DADE04803FE"/>
+</associations>
+</Column>
+<Column name="Weapon_Type" id="5A79EBFD-0E6D-49D5-8D27-166D0EA79133">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>5165CCFA-E477-81C4-2231-15C7DB9AA4D7</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="38DD8FDB-E597-D6E3-7C0E-5C93088AD930" referredColumn="3CE95E36-91A6-C767-E766-1DA63EC65EA6"/>
+</associations>
+</Column>
+<Column name="Gender" id="3F244D4A-ED66-628B-FAA3-5BA1ABFA3E23">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>36381B5B-EA49-F6D9-48A2-49B4E566576B</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Female" description=""/>
+<valueDef value="Male" description=""/>
+</listOfValues>
+<defaultValue>Male</defaultValue>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1420EF16-D307-EFE9-1350-B1E7C22160C7" name="Creature_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>F3F20051-C2AE-A256-D91E-F6BAB4668D16</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C1935038-9E76-E117-6EDD-5B85B6AC3F7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AA24250-A2F3-67DF-A467-2982698E4B0D" name="Creature_Race_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>94C1C2CA-C9AB-C5F0-2E55-B17BE10FC04A</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A355B38-A948-9442-31E5-55EB96996BEB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE0AD666-1CED-3DD6-EBDC-7154527CC2F4" name="Creature_Location_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>CFBD26EB-F0B7-066D-A9C9-93767477F7B4</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B946B8A2-0743-E925-8A9C-38F089140000"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="98334BFA-C1BB-E80E-527B-40C0B2718EC6" name="Creature_Class_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>381EFDB1-A6D5-0FD4-2085-DA970189D8F9</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B5D2A68-2199-A4FB-BB86-3298E772EBF7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="894778F3-75B1-7F6B-4DE9-4D12FC08ED87" name="Creature_Mount_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>4AEA46A2-5491-39CF-B97F-96DCC6432688</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="321DDF42-1AD7-22F9-829E-0903BE7745C2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="12B39A58-052B-2B4F-B024-A4D88469EF77" name="Creature_Weapon_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>3D91B0D2-2C5D-5A1F-375B-92FB713DE49E</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5A79EBFD-0E6D-49D5-8D27-166D0EA79133"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

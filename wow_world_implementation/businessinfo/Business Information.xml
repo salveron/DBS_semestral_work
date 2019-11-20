@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="EB2273F2-C4CC-1941-54A8-7FB4AEB5B7B7">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 11:16:23 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

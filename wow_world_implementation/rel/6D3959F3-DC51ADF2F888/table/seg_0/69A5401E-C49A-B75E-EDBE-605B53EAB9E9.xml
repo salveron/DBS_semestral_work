@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="69A5401E-C49A-B75E-EDBE-605B53EAB9E9" name="Class">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>E601E7BB-1657-66CB-8A32-B1BFECD9EDD4</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="17AAC586-D2DC-DF40-B7AE-0B6C638557AE">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>F3BAE13A-ACE3-A0D6-D70B-DF86F8FFD59C</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type_of_armor" id="77B622BD-6484-B009-3802-1425684C5EA8">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>5AE6D578-F46D-D269-4A4F-8BBDD28A7538</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Cloth" description=""/>
+<valueDef value="Leather" description=""/>
+<valueDef value="Mail" description=""/>
+<valueDef value="Plate" description=""/>
+</listOfValues>
+<defaultValue>Plate</defaultValue>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Melee_or_range" id="62923A6E-175C-10A6-AEA2-08BC6031C753">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-04-04 09:52:15 UTC</createdTime>
+<generatorID>25C43B58-B656-F673-F261-4574A83447F3</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Both" description=""/>
+<valueDef value="Melee" description=""/>
+<valueDef value="Range" description=""/>
+</listOfValues>
+<defaultValue>Both</defaultValue>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="849601F4-5E58-1A92-F4A1-7412DDCFAF9B" name="Class_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>3B89E5DB-913E-23C6-281D-8E6C110CC25F</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17AAC586-D2DC-DF40-B7AE-0B6C638557AE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

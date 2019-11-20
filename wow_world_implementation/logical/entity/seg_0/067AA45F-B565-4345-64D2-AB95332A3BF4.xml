@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="067AA45F-B565-4345-64D2-AB95332A3BF4" name="Location">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:52:42 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="D042BE86-829B-ABFB-0D7E-2624050F638C">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:52:48 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="F16C00BE-05F9-31BE-BDF3-567A2F32D711">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:53:48 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Desert" description=""/>
+<valueDef value="Forest" description=""/>
+<valueDef value="Mountainous" description=""/>
+<valueDef value="Plain" description=""/>
+<valueDef value="Snowy" description=""/>
+<valueDef value="Underground" description=""/>
+<valueDef value="Water" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="A5F65725-95FA-1A5B-E4F0-AE24FB652893">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:07:23 UTC</createdTime>
+<generatorID>51D021B2-C25C-0D91-D8BC-9549A685F2D2</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<referedAttribute>B967FD70-CBEF-290B-C2BF-C7B82E86EF62</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FFF365BC-5D2E-4043-2E2A-C844DD4038B4" name="Location PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:52:53 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>D042BE86-829B-ABFB-0D7E-2624050F638C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

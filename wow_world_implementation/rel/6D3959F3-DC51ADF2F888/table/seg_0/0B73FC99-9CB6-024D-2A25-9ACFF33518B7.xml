@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0B73FC99-9CB6-024D-2A25-9ACFF33518B7" name="Race">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>9B8FC99D-B2E4-6AF3-611A-68B26449E343</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="C206FEF0-2B10-74E2-20B0-9FEA9C2483FD">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>F8A00A6F-D2FC-9155-1B65-ED9BBBDFE163</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Fraction" id="060F3555-07AF-9A69-470D-06B9247F2C17">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>78B3E08C-5B75-BA9D-FCEF-A3353D746812</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Alliance" description=""/>
+<valueDef value="Horde" description=""/>
+<valueDef value="Neutral" description=""/>
+</listOfValues>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="774A692C-9931-73C5-AD66-BFCB939758A3" name="Race_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>734B4640-A0FF-A16D-0293-6AF7383EF734</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C206FEF0-2B10-74E2-20B0-9FEA9C2483FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

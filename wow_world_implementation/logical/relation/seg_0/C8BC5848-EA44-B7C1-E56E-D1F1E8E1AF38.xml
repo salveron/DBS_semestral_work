@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Class_weapon" directorySegmentName="seg_0" id="C8BC5848-EA44-B7C1-E56E-D1F1E8E1AF38">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:11:05 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>uses</nameOnSource>
+<nameOnTarget>is_used_by</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>E601E7BB-1657-66CB-8A32-B1BFECD9EDD4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>39CDEF9A-F299-68D8-A419-0DE814BF7E9B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

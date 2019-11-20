@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="3B1C46C7-1358-8C94-37C8-6A69246383E8">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 11:16:23 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

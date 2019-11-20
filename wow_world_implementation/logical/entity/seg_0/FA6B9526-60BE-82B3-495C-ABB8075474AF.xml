@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA6B9526-60BE-82B3-495C-ABB8075474AF" name="Mount">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:49:27 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="93D0CF5E-A604-686F-22AE-09287BED7C20">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:49:32 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>75 CHAR</dataTypeSize>
+<ownDataTypeParameters>75 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="DA13E029-8AAB-7352-523E-FD482F7B57F2">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:51:07 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Flying" description=""/>
+<valueDef value="Ground" description=""/>
+<valueDef value="Water" description=""/>
+</listOfValues>
+<defaultValue>Ground</defaultValue>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Rarity" id="1952F521-20C0-7996-BC7B-59B32B51D05E">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-04-04 09:36:32 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+<description>Rarity_scale_mount</description>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4B3AA7F0-67D7-918A-0C71-3EAB57EE9AEA" name="Mount PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:49:36 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>93D0CF5E-A604-686F-22AE-09287BED7C20</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

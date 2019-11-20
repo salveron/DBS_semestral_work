@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4FF98143-ED09-C46B-A3F8-D476F0998CF6" containerWithKeyObject="366F0C2A-1818-95D3-EC0A-F4373A140B0A" localFKIndex="98334BFA-C1BB-E80E-527B-40C0B2718EC6" name="Creature_Class_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>381EFDB1-A6D5-0FD4-2085-DA970189D8F9</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<referredTableLongName>Class</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>69A5401E-C49A-B75E-EDBE-605B53EAB9E9</referredTableID>
+<keyObject>849601F4-5E58-1A92-F4A1-7412DDCFAF9B</keyObject>
+<referredKeyID>849601F4-5E58-1A92-F4A1-7412DDCFAF9B</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Name</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

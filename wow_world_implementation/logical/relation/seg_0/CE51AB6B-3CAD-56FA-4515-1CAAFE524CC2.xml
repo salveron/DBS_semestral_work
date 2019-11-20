@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Mount_location" directorySegmentName="seg_0" id="CE51AB6B-3CAD-56FA-4515-1CAAFE524CC2">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:12:03 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<nameOnSource>is_obtainable</nameOnSource>
+<nameOnTarget>is_a_place_for_looting</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FA6B9526-60BE-82B3-495C-ABB8075474AF</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>067AA45F-B565-4345-64D2-AB95332A3BF4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

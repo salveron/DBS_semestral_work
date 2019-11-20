@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B16E4607-0C00-D7A4-BF79-AE8802AC6D11" name="Race_class">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Class_Name" id="514BD158-2A10-3DDF-BCF8-69385D87EA6E">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="223A4AC9-7ED0-25AE-6B9E-90A43C8DA67F" referredColumn="17AAC586-D2DC-DF40-B7AE-0B6C638557AE"/>
+</associations>
+</Column>
+<Column name="Race_Name" id="05854CB0-EEFE-FEAA-C7DA-6FA80FC0ADB8">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="65541F1B-43A8-283E-66FD-D44FD2A3ED00" referredColumn="C206FEF0-2B10-74E2-20B0-9FEA9C2483FD"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98DDFD8F-9CAE-5E49-2301-94097DA9BCD9" name="Race_class_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="514BD158-2A10-3DDF-BCF8-69385D87EA6E"/>
+<colUsage columnID="05854CB0-EEFE-FEAA-C7DA-6FA80FC0ADB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B6514008-5925-AACD-75CB-F7C8EB88AF4F" name="Race_class_Class_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>99D050B7-52FB-CB68-3E0A-05D4EF2BEFE6</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="514BD158-2A10-3DDF-BCF8-69385D87EA6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0872BFFE-873E-7E24-75E2-D671C5F09BB7" name="Race_class_Race_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>99D050B7-52FB-CB68-3E0A-05D4EF2BEFE6</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05854CB0-EEFE-FEAA-C7DA-6FA80FC0ADB8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

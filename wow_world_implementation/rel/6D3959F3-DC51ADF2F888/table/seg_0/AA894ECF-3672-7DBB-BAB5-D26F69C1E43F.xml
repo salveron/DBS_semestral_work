@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AA894ECF-3672-7DBB-BAB5-D26F69C1E43F" name="Tank">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>3A1DCF6E-B222-5EBD-0320-BF55E185A02D</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Class_Name" id="6B6AC612-F5F6-F7FA-A4F2-E1E6FE2A9F4E">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>02C27E28-5913-07C6-372B-1CEDD150DDF5</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3C1813C6-B770-B8DB-C8F1-6771A00E2712" referredColumn="17AAC586-D2DC-DF40-B7AE-0B6C638557AE"/>
+</associations>
+</Column>
+<Column name="Popularity" id="EC3EA361-90BF-7587-E3DC-FC0B95FBC73C">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-04-04 09:52:15 UTC</createdTime>
+<generatorID>02A2CEAD-8807-8AC9-7716-79F0A4B4C5C5</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+<description>Popularity_scale_tank</description>
+</rangeDef>
+</listOfRanges>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CF49C12C-D3FB-C99A-FA9E-9AFD99E56788" name="Tank_PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>90A3F16D-48D6-2507-10CF-33FE9661EE31</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B6AC612-F5F6-F7FA-A4F2-E1E6FE2A9F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DEFB133C-00EA-6D1B-C888-ABD0FC6D04B8" name="Tank_Class_FK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:23:08 UTC</createdTime>
+<generatorID>621B036B-0E73-A710-908A-4C254AE0367A</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6B6AC612-F5F6-F7FA-A4F2-E1E6FE2A9F4E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

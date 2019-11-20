@@ -1,0 +1,141 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA5B7C7E-50AC-4F97-5509-AEDC0F88B3F6" name="Creature">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:45:47 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Name" id="974C2679-5BAA-355F-206D-374F9E0076F5">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:45:58 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name1" id="6D4EE220-2484-EAC0-F2D6-3EA4B48DAA42">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:01:40 UTC</createdTime>
+<generatorID>381EFDB1-A6D5-0FD4-2085-DA970189D8F9</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<referedAttribute>F3BAE13A-ACE3-A0D6-D70B-DF86F8FFD59C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name2" id="DEE03463-C4C6-D91D-F9E0-6B773685BEA0">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:03:43 UTC</createdTime>
+<generatorID>4AEA46A2-5491-39CF-B97F-96DCC6432688</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>93D0CF5E-A604-686F-22AE-09287BED7C20</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name3" id="8F318300-64A2-28F6-030D-1E44431C173D">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:04:59 UTC</createdTime>
+<generatorID>94C1C2CA-C9AB-C5F0-2E55-B17BE10FC04A</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<referedAttribute>F8A00A6F-D2FC-9155-1B65-ED9BBBDFE163</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name4" id="1B1DE814-4A6B-3233-160C-E5C7D1585D23">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:06:41 UTC</createdTime>
+<generatorID>CFBD26EB-F0B7-066D-A9C9-93767477F7B4</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<referedAttribute>D042BE86-829B-ABFB-0D7E-2624050F638C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Type" id="5165CCFA-E477-81C4-2231-15C7DB9AA4D7">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:10:07 UTC</createdTime>
+<generatorID>3D91B0D2-2C5D-5A1F-375B-92FB713DE49E</generatorID>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<referedAttribute>5A2023CF-02AE-09BE-FB22-B062CC784AE0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25 CHAR</dataTypeSize>
+<ownDataTypeParameters>25 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Gender" id="36381B5B-EA49-F6D9-48A2-49B4E566576B">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:14:42 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="Female" description=""/>
+<valueDef value="Male" description=""/>
+</listOfValues>
+<defaultValue>Male</defaultValue>
+<ownDataTypeParameters>7 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F3F20051-C2AE-A256-D91E-F6BAB4668D16" name="Creature PK">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 12:46:09 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>974C2679-5BAA-355F-206D-374F9E0076F5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

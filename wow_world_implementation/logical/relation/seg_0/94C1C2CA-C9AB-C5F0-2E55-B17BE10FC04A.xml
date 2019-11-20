@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Creature_race" directorySegmentName="seg_0" id="94C1C2CA-C9AB-C5F0-2E55-B17BE10FC04A">
+<createdBy>NikitaMor</createdBy>
+<createdTime>2019-03-30 13:04:59 UTC</createdTime>
+<ownerDesignName>wow_world_implementation</ownerDesignName>
+<engineerTo>
+<item key="6D3959F3-5976-537A-47EF-DC51ADF2F888" value="true"/>
+</engineerTo>
+<sourcePk>734B4640-A0FF-A16D-0293-6AF7383EF734</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>is</nameOnSource>
+<nameOnTarget>is</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9B8FC99D-B2E4-6AF3-611A-68B26449E343</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BA5B7C7E-50AC-4F97-5509-AEDC0F88B3F6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
